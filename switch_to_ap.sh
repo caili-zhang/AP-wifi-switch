@@ -5,3 +5,5 @@ cp ./ap/hostapd /etc/default/hostapd
 
 sudo ifdown wlan0
 sudo ifup wlan0
+
+sudo hostapd /etc/hostapd/hostapd.conf
